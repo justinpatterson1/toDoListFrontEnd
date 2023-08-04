@@ -8,7 +8,7 @@ function TaskList({id,name,date,item}) {
   const {task,setTasks} = useContext(TaskContext)
 
   return (
-    <div className='bg-teal-200 w-full py-5 mt-5 rounded'>
+    <div className='bg-teal-200 w-full py-5 mt-5 rounded relative z-0'>
         <div className='flex justify-between px-4'>
                 <input type="checkbox" name="done" id="done" />
                 <div>{name}</div>
